@@ -157,7 +157,7 @@ initialBtn.addEventListener("click", function () {
   };
   highScoreList.push(playerInitial);
   localStorage.setItem("highscores", JSON.stringify(highScoreList));
-  window.location.href = "https://aydenemateo.github.io/quiz-time/highscore.html";
+  window.location.href = "https://aydenemateo.github.io/code-quiz/highscore.html";
 });
 
 startBtn.addEventListener("click", function () {
