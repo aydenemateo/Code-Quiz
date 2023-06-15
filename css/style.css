@@ -1,0 +1,166 @@
+html {
+    color: black;
+    padding: 10px;
+    background-color: rgb(135, 141, 142);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    border: solid;
+    margin-left: 10px;
+}
+
+#start-quiz {
+    color: black;
+}
+
+#timer {
+    color: white;
+    border: solid;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 45px;
+
+}
+
+main {
+    margin-top: 5%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(211, 197, 197);
+    font-size: 1.5rem;
+}
+
+.hover:hover {
+    border-width: 1px;
+    box-shadow: -2px 2px black;
+}
+
+#start-btn {
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid;
+    font-size: 16px;
+    background-color: black;
+
+}
+
+#start-btn:hover {
+    background-color: rgb(55, 56, 57);
+    cursor: pointer;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#question-div {
+    width: 80vw;
+    height: 55vh;
+    text-align: center;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+
+.selection {
+    display: block;
+    height: 50px;
+    width: 30%;
+    border-radius: 10px;
+    border: solid;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.selection:hover {
+    border-width: 3px;
+    border-color: rgb(47, 0, 0);
+    border-style: solid;
+    cursor: pointer;
+}
+
+#question {
+    font-size: 2rem;
+    color: black;
+}
+
+#right-wrong {
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: underline 1px;
+    background-color: rgba(255, 255, 255, 0.422);
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    color: black;
+}
+
+#initial-btn {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: solid;
+}
+
+#initial-btn:hover {
+    border-color: black;
+}
+
+#initial-input {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+
+}
+
+#your-score {
+    color: black;
+    font-size: 25px;
+    margin-left: 445px;
+}
+
+#initial-div {
+    color: black;
+}

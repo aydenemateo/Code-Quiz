@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Coding Quiz</title>
+</head>
+
+<body>
+  <header id="top-box">
+    <div id="highscore">
+      <a class="hover" href="./highscore.html">View High Scores</a>
+    </div>
+    <div class="hidden" id="your-score">
+      <p>Your Score! >>></p>
+    </div>
+    <div id="timer">
+      <p>Time</p>
+    </div>
+  </header>
+  <main id="main-content">
+    <div id="question-div" class="hidden">
+      <div id="question">This is Question 1</div>
+      <button class="selection" id="answer-1">answer 1</button>
+      <button class="selection" id="answer-2">answer 2</button>
+      <button class="selection" id="answer-3">answer 3</button>
+      <button class="selection" id="answer-4">answer 4</button>
+      <div id="right-wrong" class="hidden">Correct!</div>
+    </div>
+    <div id="start-quiz">
+      <h1>Coding Quiz</h1>
+      <p>Test your knowledge about JavaScript!</p>
+      <p>Every wrong answer knocks off 10 seconds off the time</p>
+      <p>Try to set a new high score!</p>
+      <button type="button" id="start-btn">Start Quiz!</button>
+    </div>
+    <div id="initial-div" class="hidden">
+      <h2>You did great! Please enter your initials</h2>
+      <input type="text" placeholder="Enter initials here" id="initial-input" />
+      <button id="initial-btn">Submit</button>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
